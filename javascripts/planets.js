@@ -1,6 +1,7 @@
 "use strict";
 
 let planets = [];
+let imageData = {};
 
 $.get("../db/planets.json").done((data) => {
 	planets = data.planets;
